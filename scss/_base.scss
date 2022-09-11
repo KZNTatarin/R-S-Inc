@@ -1,0 +1,28 @@
+body {
+    font-family: $open-sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: $armin-grotek;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.title-2 {
+    font-family: $open-sans;
+    font-weight: 600;
+    font-size: 50px;
+    color: $white-color;
+}
+
+.bold-text {
+    font-weight: 700;
+}

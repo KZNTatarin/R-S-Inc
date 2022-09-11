@@ -1,0 +1,28 @@
+// Цвета
+$white-color: #DFDFDF;
+$black-color:rgba(29, 29, 29, 1);
+$bg-block-color: radial-gradient(150.51% 860.08% at 2.77% -27.92%, rgba(107, 107, 107, 0.42) 0%, rgba(217, 217, 217, 0) 100%);
+
+
+// Стили шрифта
+@mixin text($f, $c) {  
+    font-size: $f;
+    color: $c;
+}
+
+$open-sans: 'Open Sans', sans-serif;
+$armin-grotek: 'Armin Grotesk';
+$homenaje: 'Homenaje';
+
+//Шаблоны
+%flex-element-center {
+    display: flex;
+    align-items: center;
+}
+
+%gray-block {
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    -webkit-filter: drop-shadow(4px 4px 11px rgba(0, 0, 0, 0.25));
+            filter: drop-shadow(4px 4px 11px rgba(0, 0, 0, 0.25));
+    border-radius: 37px;
+}
